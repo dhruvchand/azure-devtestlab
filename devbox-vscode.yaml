@@ -1,0 +1,11 @@
+name: devbox-VSCode
+image: resourceID/.../VSCodeBox@latest
+
+hostInformation: 
+  compute: 16vcpu 
+  memory: 64gb 
+  storage: 1024gb 
+setupTasks: 
+  - task: powershell 
+    inputs: 
+      path: "./MyPowershell.ps1" 
